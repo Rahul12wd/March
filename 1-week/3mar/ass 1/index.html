@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pop-up</title>
+    
+     <!-- css link -->
+    <link rel="stylesheet" href="./pop-up.css">
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMcWLZGERXoZMNBCGd23vL7_uXE-cLjM80aA&usqp=CAU" type="image/x-icon">
+   
+     <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <section>
+         <div class="open">
+            <button class="open-popup-btn" onclick="openPopup()" id="open-popup-btn">
+                Get Offer !!
+            </button>
+        </div>  
+
+
+         <div class="popup-overlay"></div>
+
+
+         <div class="popup">
+            <img src="./offer.png" alt="">
+            <h1>Congratulations</h1>
+          <div class="popup-close-btn" onclick="closePopup()" id="popup-close-btn">&times;</div>
+        </div>
+        
+    </section>
+
+
+
+
+    
+    <script src="./pop-up.js"></script>
+</body>
+</html>
